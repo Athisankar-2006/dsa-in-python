@@ -1,4 +1,4 @@
-### 
+### right aligned pattern 
 
 def pattern(n):
     m=(n*2)-1
