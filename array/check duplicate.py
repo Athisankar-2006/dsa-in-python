@@ -3,7 +3,7 @@
 
 
 
-arr=[1,1,2,2,3,3,4,5]
+arr=[1,1,2,2,3,3,4,5,5,5,7]
 
 
 
@@ -19,13 +19,13 @@ def duplicate(arr):
         if arr[i]!=arr[j]:
             j+=1
             arr[j]=arr[i]
-    return j+1 , arr[:j+1]
+    return  arr[:j+1]
 
 print(duplicate(arr))
 
 
 
-##2, brute force approch
+# #2, brute force approch
 
 # def duplicate(arr):
 #     if not arr:
