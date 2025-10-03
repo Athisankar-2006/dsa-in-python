@@ -2,12 +2,15 @@
 
 arr=[1,2,3,4,5]
 
+
 ##1,slicing method
 
 # def left_rotate(arr):
 #     return arr[1:]+arr[:1]
 
 # print(left_rotate(arr))
+
+
 
 
 
